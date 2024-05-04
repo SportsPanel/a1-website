@@ -1,13 +1,17 @@
-import AboutUs from "../AboutUs"
-import Content from "../Content"
+import AboutUs from "../AboutUs";
+import Content from "../Content";
+import Explore from "../Explore";
+import FAQ from "../FAQ";
 
 const Home: React.FC<any> = () => {
-    return(
-        <div>
-            <AboutUs/>
-            <Content/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <AboutUs />
+      <Explore />
+      <Content />
+      <FAQ />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
