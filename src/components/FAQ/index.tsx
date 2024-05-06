@@ -1,4 +1,6 @@
 import React from "react";
+import Expandable from "../Expandable";
+import { expandableProps } from "../../constants";
 
 const FAQ: React.FC<any> = () => {
   return (
@@ -8,10 +10,14 @@ const FAQ: React.FC<any> = () => {
           <p className="text-white font-light text-4xl mr-2">Our</p>
           <p className="text-white font-semibold text-4xl">FAQ</p>
         </div>
-        <div className="w-1/2 flex flex-col mt-10 justify-evenly">
-          <div className="bg-line h-[1px]"></div>
-          <p className="text-white font-semibold text-2xl">How it Works</p>
-        </div>
+        {expandableProps.map((props, index) => (
+          <Expandable
+            key={index}
+            title={props.title}
+            content={props.content}
+            hidden={props.hidden}
+          />
+        ))}
       </div>
     </section>
   );

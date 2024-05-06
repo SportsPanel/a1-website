@@ -10,6 +10,7 @@ export default {
       gray: "#D3D3D3",
       break: "#3E3E3E",
       line: "#413B71",
+      closeIcon: "#6D7594",
       transparent: "#00000000",
     },
   },
