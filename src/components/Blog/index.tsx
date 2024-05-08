@@ -3,7 +3,7 @@ import BlogCard from "../BlogCard";
 
 const Blog: React.FC<any> = () => {
   return (
-    <section>
+    <section id="blogs">
       <div className="flex bg-black h-auto flex-col bg-[url(./assets/images/blog-bg.png)] p-10">
         <div className="flex flex-row">
           <p className="text-white font-light text-4xl mr-2">Our</p>
