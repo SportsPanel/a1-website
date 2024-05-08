@@ -15,7 +15,7 @@ const Footer: React.FC<any> = () => {
           </p>
         </div>
         <div className="flex-1 flex flex-row justify-evenly">
-          <div className="flex flex-col justify-evenly">
+          <div className="flex flex-col sm:justify-evenly">
             <p className="text-white font-semibold text-lg">Know Us</p>
             <p className="text-white font-light text-xs mt-2">
               What is A1 Sports

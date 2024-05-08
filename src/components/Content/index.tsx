@@ -3,13 +3,13 @@ import React from "react";
 const Content: React.FC<any> = () => {
   return (
     <section id="content">
-      <div className="flex flex-col h-auto bg-white items-center pb-20 bg-[url(./assets/images/content-bg.png)]">
+      <div className="flex flex-col h-auto bg-white items-center -mt-32 pb-20 bg-[url(./assets/images/content-bg.png)]">
         <div className="flex flex-col items-center">
           <div className="flex flex-row">
             <p className="text-black font-light text-5xl mr-3">Why</p>
             <p className="text-black font-semibold text-5xl">A1 Sports</p>
           </div>
-          <p className="w-2/3 text-black font-light text-base text-center mt-5">
+          <p className="w-full text-black font-light text-base text-center mt-5 sm:w-2/3">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

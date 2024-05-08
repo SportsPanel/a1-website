@@ -9,7 +9,7 @@ const Blog: React.FC<any> = () => {
           <p className="text-white font-light text-4xl mr-2">Our</p>
           <p className="text-white font-semibold text-4xl">Blogs</p>
         </div>
-        <div className="w-full h-full flex flex-col mt-10 sm:flex-row sm:space-x-5">
+        <div className="w-full h-full flex flex-col space-y-5 mt-10 sm:flex-row sm:space-x-5 sm:space-y-0">
           <BlogCard />
           <BlogCard />
           <BlogCard />
