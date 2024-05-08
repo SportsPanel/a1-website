@@ -25,7 +25,7 @@ const Header: React.FC<any> = () => {
                   href={`#${link.id}`}
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection("home");
+                    scrollToSection(link.id);
                   }}
                   className="block py-2 pr-4 pl-3 duration-200 text-white hover:text-gray"
                 >
