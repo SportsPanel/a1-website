@@ -34,27 +34,27 @@ export const navLinks: NavLink[] = [
 
 export const expandableProps: ExpandableProps[] = [
   {
-    title: "How it works",
+    title: "A1 Sports ?",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen",
+      "At A1 Sports, we've made a new way for fans to enjoy sports. Instead of just watching, you can now invest in your favorite players using our special trading platform. In a mission to end sports gambling and bring financial literacy to the masses via sports trading.",
     hidden: true,
   },
   {
-    title: "How deposit works",
+    title: "How A1 Sports works",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen",
+      "It's not like the usual fantasy sports apps. A1 Sports is more advanced. It's made for people who love sports and want to invest in them too. You can think of it like buying and selling stocks, but instead of companies, you're dealing with athletes. You can buy shares in athletes and then sell them later based on how well they're performing. We help you make smart choices by giving you lots of useful information about players and teams. Instead of guessing we want you to make informed decisions based on your knowledge of sports and the data we provide. Whether you're backing a rising star or spreading your investments, every move you make on A1 Sports matters.",
     hidden: true,
   },
   {
-    title: "Withdrawl Process",
+    title: "What's New With us?",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen",
+      "We're changing the game in sports investing. A1 Sports offers a unique trading experience, bringing together sports fans and financial opportunities. With us, fans can become investors and influence the future of sports through their choices.",
     hidden: true,
   },
   {
-    title: "Pointing System",
+    title: "Our Vision",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen",
+      "We're dedicated to supporting sports talent from the ground up. We imagine a future where young athletes get a boost from our platform, helping them reach the top. At A1 Sports, we're not just trading; we're investing in tomorrow's sports stars.",
     hidden: true,
   },
 ];

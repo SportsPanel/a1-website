@@ -1,12 +1,19 @@
 import React from "react";
+import Banner from "../Banner";
 
 const Home: React.FC<any> = () => {
   return (
     <section id="home">
-      <div className="flex bg-black h-screen bg-[url(./assets/images/bg-image.png)] justify-center ">
+      <div className="container w-full flex flex-col bg-black h-screen bg-[url(./assets/images/bg-image.png)]">
+        <div className="overflow-hidden w-full">
+          <div className="whitespace-nowrap animate-slideRight">
+            <Banner />
+          </div>
+        </div>
         <div className="flex flex-col items-center mt-20">
           <p className="text-primary font-light text-5xl flex flex-row text-center">
-            We are A1 Sports
+            We are{" "}
+            <p className="text-heading font-semibold text-5xl ml-3">Bharat's</p>
           </p>
           <p className="text-primary font-light text-5xl text-center">
             SPORTS INVESTMENT PLATFORM

@@ -10,11 +10,9 @@ const Content: React.FC<any> = () => {
             <p className="text-black font-semibold text-5xl">A1 Sports</p>
           </div>
           <p className="w-full text-black font-light text-base text-center mt-5 sm:w-2/3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also 
+            A1 Sports transforms fan engagement, offering a unique trading
+            platform for investing in athletes. Empowering informed decisions,
+            it supports grassroots talent, shaping the future of sports.
           </p>
         </div>
         <div className="flex flex-col mt-10 md:flex-row">
@@ -24,7 +22,7 @@ const Content: React.FC<any> = () => {
             </p>
             <p className="text-black font-light text-base text-center">
               We are offering users to buy and sell shares of listed athletes on
-              our platform's. Growth of the shares depends on 3Ps -
+              our platform. Growth of the shares depends on 3Ps -
               Performance,Partnership and Presence.
             </p>
           </div>
@@ -45,8 +43,8 @@ const Content: React.FC<any> = () => {
                 Experts Talk
               </p>
               <p className="text-black font-light text-base text-left">
-                Athlete’s shares will be launched as Initial Public Offering on
-                specific dates which will be announced prior to the dates.
+                Sports experts will share their view on player’s performance and
+                help fans to take decision.
               </p>
             </div>
           </div>
