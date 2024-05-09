@@ -4,7 +4,7 @@ import Banner from "../Banner";
 const Home: React.FC<any> = () => {
   return (
     <section id="home">
-      <div className="container w-full flex flex-col bg-black h-screen bg-[url(./assets/images/bg-image.png)]">
+      <div className="w-full flex flex-col bg-black h-screen bg-[url(./assets/images/bg-image.png)]">
         <div className="overflow-hidden w-full">
           <div className="whitespace-nowrap animate-slideRight">
             <Banner />
