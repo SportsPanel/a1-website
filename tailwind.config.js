@@ -1,8 +1,20 @@
+import { transform } from "typescript";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slideRight: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(100vw)" },
+        },
+      },
+      animation: {
+        slideRight: "slideRight 10s linear infinite",
+      },
+    },
     colors: {
       primary: "#BF8D2C",
       black: "black",
@@ -12,6 +24,9 @@ export default {
       line: "#413B71",
       closeIcon: "#6D7594",
       transparent: "#00000000",
+      heading: "#6EAAC8",
+      green: "#00FF87",
+      red: "#FE7469",
     },
   },
   plugins: [],
