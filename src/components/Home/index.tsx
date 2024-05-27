@@ -16,7 +16,7 @@ const Home: React.FC<any> = () => {
             <Banner />
           </div>
         </div>
-        <div className="flex flex-col items-center mt-20">
+        <div className="flex flex-col items-center mt-10">
           <p className="text-primary font-light text-4xl flex flex-row text-center">
             From Fan to Investor, Grow With Future Stars
           </p>
