@@ -3,7 +3,7 @@ import React from "react";
 const Content: React.FC<any> = () => {
   return (
     <section id="content">
-      <div className="flex flex-col h-auto bg-white items-center -mt-32 pb-20 bg-[url(./assets/images/content-bg.png)]">
+      <div className="flex flex-col h-auto bg-white items-center mt-10 sm:-mt-52 pb-20 bg-[url(./assets/images/content-bg.png)]">
         <div className="flex flex-col items-center">
           <div className="flex flex-row">
             <p className="text-black font-light text-5xl mr-3">Why</p>
@@ -15,8 +15,8 @@ const Content: React.FC<any> = () => {
             it supports grassroots talent, shaping the future of sports.
           </p>
         </div>
-        <div className="flex flex-col mt-10 md:flex-row">
-          <div className="flex flex-col items-center justify-evenly">
+        <div className="flex flex-col mt-10 w-full md:flex-row ">
+          <div className="flex flex-col items-center justify-evenly sm:w-1/2 p-5">
             <p className="text-primary font-semibold text-4xl md:text-7xl">
               Investment
             </p>
@@ -27,8 +27,8 @@ const Content: React.FC<any> = () => {
             </p>
           </div>
           <div className="h-auto border-[1px] border-gray my-5 md:mx-5"></div>
-          <div className="flex flex-col">
-            <div className="flex flex-col mb-5">
+          <div className="flex flex-col sm:w-2/5 sm:p-0">
+            <div className="flex flex-col mb-5 p-5">
               <p className="text-primary font-semibold text-2xl mb-2 md:text-4xl md:self-start self-center">
                 IPO
               </p>
@@ -38,7 +38,7 @@ const Content: React.FC<any> = () => {
               </p>
             </div>
             <div className="border-gray border-[1px] mb-5"></div>
-            <div className="flex flex-col">
+            <div className="flex flex-col p-5">
               <p className="text-primary font-semibold text-2xl mb-2 md:text-4xl md:self-start self-center">
                 Experts Talk
               </p>
