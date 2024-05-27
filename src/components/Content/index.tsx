@@ -3,7 +3,7 @@ import React from "react";
 const Content: React.FC<any> = () => {
   return (
     <section id="content">
-      <div className="flex flex-col h-auto bg-white items-center mt-10 sm:-mt-52 pb-20 bg-[url(./assets/images/content-bg.png)]">
+      <div className="flex flex-col h-auto bg-white items-center lg:-mt-52 sm:mt52 pb-20 bg-[url(./assets/images/content-bg.png)]">
         <div className="flex flex-col items-center">
           <div className="flex flex-row">
             <p className="text-black font-light text-5xl mr-3">Why</p>
