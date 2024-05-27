@@ -9,7 +9,7 @@ const Header: React.FC<any> = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "instant", block: "nearest" });
+      element.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
   };
 
