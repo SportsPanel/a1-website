@@ -25,7 +25,7 @@ const Expandable: React.FC<ExpandableProps> = ({ title, content, hidden }) => {
         )}
       </div>
       {showContent ? null : (
-        <p className="text-line font-normal text-base mt-2">{content}</p>
+        <p className="text-white font-normal text-base mt-2">{content}</p>
       )}
     </div>
   );

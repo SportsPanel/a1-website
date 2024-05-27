@@ -14,6 +14,10 @@ export default {
       animation: {
         slideRight: "slideRight 10s linear infinite",
       },
+      animationPlayState: {
+        running: "running",
+        paused: "paused",
+      },
     },
     colors: {
       primary: "#BF8D2C",
@@ -29,5 +33,19 @@ export default {
       red: "#FE7469",
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          ".animation-play-state-running": {
+            "animation-play-state": "running",
+          },
+          ".animation-play-state-paused": {
+            "animation-play-state": "paused",
+          },
+        },
+        ["responsive", "hover"]
+      );
+    },
+  ],
 };
