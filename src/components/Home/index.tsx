@@ -17,14 +17,14 @@ const Home: React.FC<any> = () => {
           </div>
         </div>
         <div className="flex flex-col items-center mt-10">
-          <p className="text-primary font-light text-4xl flex flex-row text-center mt-4 mb-2">
+          <p className="text-primary font-light text-3xl flex flex-row text-center mt-4">
             From Fan to Investor, Grow With Future Stars
           </p>
-          <p className="text-heading font-semibold text-4xl ml-3 mt-4 mb-4">Join Us</p>
-          <p className="text-primary font-light text-4xl text-center mt-2 mb-4">
+          <p className="text-heading font-semibold text-3xl ml-3 mt-4 mb-4">Join Us</p>
+          <p className="text-primary font-light text-3xl text-center mb-4">
             in revolutionizing sports investment
           </p>
-          <div className="flex flex-row mt-6 items-center">
+          <div className="flex flex-row mt-6 items-center mb-10">
             <div className="flex w-36 h-12 border-[1px] rounded-lg border-white justify-center items-center mr-5 cursor-pointer">
               <p className="text-white font-semibold text-lg ">About Us</p>
             </div>
