@@ -6,7 +6,7 @@ import RightImage from "../../assets/icons/right-arrow.png";
 
 const Explore: React.FC<any> = () => {
   return (
-    <div className="flex flex-col h-1/2 mt-10 bg-transparent w-full left-0 transform  justify-center items-center sm:-translate-y-1/4 ms:-translate-y-1/2 lg:-translate-y-2/3 ">
+    <div className="flex flex-col h-auto bg-transparent w-full left-0 transform justify-center items-center sm:-translate-y-1/4 lg:-translate-y-1/3 xl:-translate-y-1/2 ">
       <div className="flex w-auto flex-col justify-between space-y-5 sm:w-1/2 sm:flex-row sm:space-y-0">
         <img className="w-1/7 h-96" src={appImageOne} />
         <img className="w-1/7 h-96" src={appImageTwo} />

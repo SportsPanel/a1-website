@@ -5,7 +5,7 @@ import FAQ from "../FAQ";
 
 const HomePage: React.FC<any> = () => {
   return (
-    <div>
+    <div className="">
       <Home />
       <Explore />
       <Content />

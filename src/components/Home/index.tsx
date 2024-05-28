@@ -10,7 +10,10 @@ const Home: React.FC<any> = () => {
 
   return (
     <section id="home">
-      <div className="w-full flex flex-col bg-black h-screen bg-[url(./assets/images/bg-image.png)]">
+      <div
+        className="w-full mflex flex-col bg-black bg-[url(./assets/images/bg-image.png)]"
+        style={{ height: "80vh" }}
+      >
         <div className="overflow-hidden w-full">
           <div className="whitespace-nowrap animate-slideRight hover:animation-play-state-paused">
             <Banner />
