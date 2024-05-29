@@ -23,10 +23,6 @@ export const navLinks: NavLink[] = [
     title: "FAQ",
   },
   {
-    id: "blogs",
-    title: "Blogs",
-  },
-  {
     id: "contact",
     title: "Contact Us",
   },
